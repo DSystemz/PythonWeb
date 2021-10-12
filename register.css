@@ -1,0 +1,96 @@
+body {
+    background-color: Goldenrod;
+    font-family: fantasy;
+    font-size: 95%;
+    text-decoration-color: white;
+
+}
+
+section {
+      width: 960px;
+      margin: auto;
+      background-color: #fff;
+      padding: 10px;
+
+}
+
+fieldset {
+        width: 700px;
+        margin: auto;
+        border: 5px, solid, #ddd;
+        border-radius: 10px;
+}
+
+
+input[type=date] {
+  width: 210px;
+  box-sizing: border-box;
+  border: 2px #black;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: SteelBlue;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=date]:focus {
+  width: 100%;
+}
+
+input[type=password] {
+  width: 210px;
+  box-sizing: border-box;
+  border: 2px #black;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: SteelBlue;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 210px;
+  box-sizing: border-box;
+  border: 2px #black;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: SteelBlue;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+input[type=email] {
+  width: 210px;
+  box-sizing: border-box;
+  border: 2px #black;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: SteelBlue;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=email]:focus {
+  width: 100%;
+}
+
+input::placeholder {
+  color: black;
+}
+
